@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'OPENJDK-11'}
+    agent any
 
     environment{
         dockerhub=credentials('dockerhub')
